@@ -1,0 +1,7 @@
+- name: expence project {{ COMPONENT }} server setup using roles
+  hosts: all
+  become: yes
+  vars_files:
+  - variables-{{ ENVIRONMENT }}.yaml
+  roles:
+  - {{ COMPONENT }}
