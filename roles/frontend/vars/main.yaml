@@ -1,3 +1,3 @@
-backend_server: kdpbackprod02.naveenrajoli.site
+backend_server: backend.app-{{ ENVIRONMENT }}.naveenrajoli.site
 APP_LOCATION: /usr/share/nginx/html
 COMPONENT: frontend
